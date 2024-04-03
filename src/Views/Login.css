@@ -1,0 +1,77 @@
+/* Login.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4c0101; /* Changed background color to wine red (#990000) */
+}
+/*//////*/
+
+.container {
+  background-color: #4c0101; /* Main container remains black */
+  color: #4c0101; /* Text color white */
+}
+
+.cardt {
+  border: 1px solid #4c0101;
+  background-color: #1d1919; /* Input fields remain black */
+  color: #4c0101; /* Text color white */
+}
+
+.card-header {
+  background-color: #4c0101;
+  border: 1px solid #4c0101;
+  color: #4c0101; /* Text color white */
+  text-align: center;
+}
+
+
+.card-body {
+  background-color: #1d1919;
+  border: 1px solid #1d1919;
+}
+
+/* Estilo para los botones */
+.btn-primaryte {
+  background-color: #4c0101;
+  color: #4c0101;
+  border: 1px solid #4c0101;
+  border-radius: 45px;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.btn-primary:hover {
+  background-color: #4c0101;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(76, 1, 1, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  background-color: #4c0101;
+  border-color: #4c0101;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #4c0101;
+  border-color: #4c0101;
+}
+ 
+.logo-imgt {
+  width: 120px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: block;
+  color: #1d1919;
+}
+
+.text {
+  color: #ffffff; /* Text color white */
+}
